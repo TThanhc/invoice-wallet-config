@@ -1,0 +1,941 @@
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "providerId": "evn_hanoi",
+      "displayName": "Tổng công ty Điện lực TP Hà Nội",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PD[0-9]{12}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "EVNHANOI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "evn_hcmc",
+      "displayName": "Tổng công ty Điện lực TP Hồ Chí Minh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PE[0-9]{10,11}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "EVNHCMC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_bac_ninh",
+      "displayName": "Công ty Điện lực Bắc Ninh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA22[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BẮC NINH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_bac_giang",
+      "displayName": "Công ty Điện lực Bắc Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA05[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC BẮC GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_bac_kan",
+      "displayName": "Công ty Điện lực Bắc Kạn",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA26[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC BẮC KẠN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_cao_bang",
+      "displayName": "Công ty Điện lực Cao Bằng",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA14[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC CAO BẰNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_dien_bien",
+      "displayName": "Công ty Điện lực Điện Biên",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA19[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC ĐIỆN BIÊN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ha_giang",
+      "displayName": "Công ty Điện lực Hà Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA20[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HÀ GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ha_nam",
+      "displayName": "Công ty Điện lực Hà Nam",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA24[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HÀ NAM"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ha_tinh",
+      "displayName": "Công ty Điện lực Hà Tĩnh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA16[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HÀ TĨNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_hoa_binh",
+      "displayName": "Công ty Điện lực Hòa Bình",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA17[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HÒA BÌNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_hung_yen",
+      "displayName": "Công ty Điện lực Hưng Yên",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA23[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HƯNG YÊN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_lai_chau",
+      "displayName": "Công ty Điện lực Lai Châu",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA29[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC LAI CHÂU"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_lao_cai",
+      "displayName": "Công ty Điện lực Lào Cai",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA18[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC LÀO CAI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_lang_son",
+      "displayName": "Công ty Điện lực Lạng Sơn",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA11[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC LẠNG SƠN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_nam_dinh",
+      "displayName": "Công ty Điện lực Nam Định",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA01[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC NAM ĐỊNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_nghe_an",
+      "displayName": "Công ty Điện lực Nghệ An",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA13[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC NGHỆ AN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_phu_tho",
+      "displayName": "Công ty Điện lực Phú Thọ",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA02[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC PHÚ THỌ"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_quang_ninh",
+      "displayName": "Công ty Điện lực Quảng Ninh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA03[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC QUẢNG NINH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_son_la",
+      "displayName": "Công ty Điện lực Sơn La",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA15[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC SƠN LA"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_thai_binh",
+      "displayName": "Công ty Điện lực Thái Bình",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA09[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC THÁI BÌNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_thai_nguyen",
+      "displayName": "Công ty Điện lực Thái Nguyên",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA04[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC THÁI NGUYÊN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_thanh_hoa",
+      "displayName": "Công ty Điện lực Thanh Hóa",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA07[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC THANH HÓA"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_tuyen_quang",
+      "displayName": "Công ty Điện lực Tuyên Quang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA12[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC TUYÊN QUANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_vinh_phuc",
+      "displayName": "Công ty Điện lực Vĩnh Phúc",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA25[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC VĨNH PHÚC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_yen_bai",
+      "displayName": "Công ty Điện lực Yên Bái",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PA10[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC YÊN BÁI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_hai_duong",
+      "displayName": "Công ty Điện lực Hải Dương",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PM[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HẢI DƯƠNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_hai_phong",
+      "displayName": "Công ty Điện lực Hải Phòng",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PH[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC HẢI PHÒNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ninh_binh",
+      "displayName": "Công ty Điện lực Ninh Bình",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PN[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC NINH BÌNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_quang_binh",
+      "displayName": "Công ty Điện lực Quảng Bình",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC01[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC QUẢNG BÌNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_quang_tri",
+      "displayName": "Công ty Điện lực Quảng Trị",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC02[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC QUẢNG TRỊ"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_thua_thien_hue",
+      "displayName": "Công ty Điện lực Thừa Thiên Huế",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC03[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC THỪA THIÊN HUẾ"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_quang_nam",
+      "displayName": "Công ty Điện lực Quảng Nam",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC05[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC QUẢNG NAM"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_quang_ngai",
+      "displayName": "Công ty Điện lực Quảng Ngãi",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC06[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC QUẢNG NGÃI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_binh_dinh",
+      "displayName": "Công ty Điện lực Bình Định",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC07[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC BÌNH ĐỊNH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_phu_yen",
+      "displayName": "Công ty Điện lực Phú Yên",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC08[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC PHÚ YÊN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_gia_lai",
+      "displayName": "Công ty Điện lực Gia Lai",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC10[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC GIA LAI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_kon_tum",
+      "displayName": "Công ty Điện lực Kon Tum",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC11[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC KON TUM"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_dak_lak",
+      "displayName": "Công ty Điện lực Đắk Lắk",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC12[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC ĐẮK LẮK"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_dak_nong",
+      "displayName": "Công ty Điện lực Đắk Nông",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PC13[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC ĐẮK NÔNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_da_nang",
+      "displayName": "Công ty Điện lực Đà Nẵng",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PP[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC ĐÀ NẴNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_khanh_hoa",
+      "displayName": "Công ty Điện lực Khánh Hòa",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PQ[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "PC KHÁNH HÒA"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_an_giang",
+      "displayName": "Công ty Điện lực An Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB12[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC AN GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ba_ria_vung_tau",
+      "displayName": "Công ty Điện lực Bà Rịa - Vũng Tàu",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB15[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BÀ RỊA VŨNG TÀU"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_can_tho",
+      "displayName": "Công ty Điện lực Cần Thơ",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB11[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC CẦN THƠ"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_kien_giang",
+      "displayName": "Công ty Điện lực Kiên Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB13[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC KIÊN GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_bac_lieu",
+      "displayName": "Công ty Điện lực Bạc Liêu",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB19[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BẠC LIÊU"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_lam_dong",
+      "displayName": "Công ty Điện lực Lâm Đồng",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB03[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC LÂM ĐỒNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_binh_thuan",
+      "displayName": "Công ty Điện lực Bình Thuận",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB02[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BÌNH THUẬN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_long_an",
+      "displayName": "Công ty Điện lực Long An",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB06[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC LONG AN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ben_tre",
+      "displayName": "Công ty Điện lực Bến Tre",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB09[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BẾN TRE"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_binh_duong",
+      "displayName": "Công ty Điện lực Bình Dương",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB04[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BÌNH DƯƠNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_binh_phuoc",
+      "displayName": "Công ty Điện lực Bình Phước",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB01[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC BÌNH PHƯỚC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ca_mau",
+      "displayName": "Công ty Điện lực Cà Mau",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB14[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC CÀ MAU"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_dong_thap",
+      "displayName": "Công ty Điện lực Đồng Tháp",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB07[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC ĐỒNG THÁP"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_hau_giang",
+      "displayName": "Công ty Điện lực Hậu Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB20[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC HẬU GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_ninh_thuan",
+      "displayName": "Công ty Điện lực Ninh Thuận",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB18[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC NINH THUẬN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_soc_trang",
+      "displayName": "Công ty Điện lực Sóc Trăng",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB17[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC SÓC TRĂNG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_tay_ninh",
+      "displayName": "Công ty Điện lực Tây Ninh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB05[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC TÂY NINH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_tien_giang",
+      "displayName": "Công ty Điện lực Tiền Giang",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB08[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC TIỀN GIANG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_tra_vinh",
+      "displayName": "Công ty Điện lực Trà Vinh",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB16[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC TRÀ VINH"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_vinh_long",
+      "displayName": "Công ty Điện lực Vĩnh Long",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB10[0-9]{9}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC VĨNH LONG"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "pc_dong_nai",
+      "displayName": "Công ty Điện lực Đồng Nai",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PK[0-9]{11}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "PC ĐỒNG NAI"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "evn_spc",
+      "displayName": "Tổng công ty Điện lực miền Nam",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^PB[0-9]{11}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "EVNSPC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "evn_npc",
+      "displayName": "Tổng công ty Điện lực miền Bắc",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^(?:PA[0-9]{2}|PM|PH|PN)[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "EVNNPC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "evn_cpc",
+      "displayName": "Tổng công ty Điện lực miền Trung",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^(?:PC[0-9]{2}|PP|PQ)[A-Z0-9]{4,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "EVNCPC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "evn",
+      "displayName": "Tập đoàn Điện lực Việt Nam",
+      "serviceType": "ELECTRICITY",
+      "regexPattern": "^P[A-Z0-9][A-Z0-9]{5,30}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "EVN"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "sawaco",
+      "displayName": "Tổng công ty Cấp nước Sài Gòn",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{11}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "SAWACO",
+        "Cấp nước Sài Gòn",
+        "Nước Sài Gòn",
+        "Nước Bến Thành",
+        "Nước Gia Định",
+        "Nước Thủ Đức"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "hawacom",
+      "displayName": "Công ty Nước sạch Hà Nội",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "HAWACOM",
+        "Nước sạch Hà Nội"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "dawaco",
+      "displayName": "Công ty Cổ phần Cấp nước Đà Nẵng",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{9}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "DAWACO",
+        "Cấp nước Đà Nẵng",
+        "Nước Đà Nẵng"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "biwase",
+      "displayName": "Tổng công ty Nước - Môi trường Bình Dương",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{10}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "BIWASE",
+        "Cấp nước Bình Dương",
+        "Nước Bình Dương"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "dowaco",
+      "displayName": "Công ty Cổ phần Cấp nước Đồng Nai",
+      "serviceType": "WATER",
+      "regexPattern": "^(?:[0-9]{6}|[0-9]{8})$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "DOWACO",
+        "Cấp nước Đồng Nai",
+        "Nước Đồng Nai"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "huewaco",
+      "displayName": "Công ty Cổ phần Cấp nước Huế",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "HUEWACO",
+        "Cấp nước Thừa Thiên Huế"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "viwaco",
+      "displayName": "Công ty Cổ phần VIWACO",
+      "serviceType": "WATER",
+      "regexPattern": "^000[0-9]{6}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "VIWACO",
+        "Nước sạch VIWACO"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "quawaco",
+      "displayName": "Công ty Cổ phần Nước sạch Quảng Ninh",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "QUAWACO",
+        "Cấp nước Quảng Ninh",
+        "Nước Quảng Ninh"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "bwaco",
+      "displayName": "Công ty Cổ phần Cấp nước Bà Rịa - Vũng Tàu",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "BWACO",
+        "Cấp nước Bà Rịa Vũng Tàu",
+        "Nước Bà Rịa Vũng Tàu"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "hai_phong_water",
+      "displayName": "Công ty Cổ phần Cấp nước Hải Phòng",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "Cấp nước Hải Phòng",
+        "Nước Hải Phòng"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "can_tho_water_2",
+      "displayName": "Công ty Cổ phần Cấp nước Cần Thơ 2",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "Cấp nước Cần Thơ 2",
+        "Nước Cần Thơ 2"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "can_tho_water",
+      "displayName": "Công ty Cổ phần Cấp thoát nước Cần Thơ",
+      "serviceType": "WATER",
+      "regexPattern": "^[0-9]{6,20}$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "Cấp nước Cần Thơ",
+        "Nước Cần Thơ"
+      ],
+      "identifierPolicy": "SHARED_NUMERIC"
+    },
+    {
+      "providerId": "fpt_telecom",
+      "displayName": "FPT Telecom",
+      "serviceType": "INTERNET",
+      "regexPattern": "^(?:HNFD|SGFD|DNFD|HPFD|BDDFD|HND|SGD|DND|HPD|BDDD)[0-9]{5}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "Công ty Cổ phần Viễn thông FPT"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "viettel_telecom",
+      "displayName": "Viettel Telecom",
+      "serviceType": "INTERNET",
+      "regexPattern": "^[A-Z][0-9]{3}_(?:GFTTH|GMTS2)_[A-Z][A-Z0-9]{2,20}$",
+      "matchStrategy": "UNIQUE",
+      "aliases": [
+        "Tổng công ty Viễn thông Viettel",
+        "VIETTEL"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "vnpt",
+      "displayName": "VNPT",
+      "serviceType": "INTERNET",
+      "regexPattern": "^$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "Tập đoàn Bưu chính Viễn thông Việt Nam",
+        "Viễn thông Việt Nam"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    },
+    {
+      "providerId": "cmc_telecom",
+      "displayName": "CMC Telecom",
+      "serviceType": "INTERNET",
+      "regexPattern": "^$",
+      "matchStrategy": "NON_UNIQUE",
+      "aliases": [
+        "Công ty Cổ phần Hạ tầng Viễn thông CMC"
+      ],
+      "identifierPolicy": "SPECIFIC"
+    }
+  ]
+}
