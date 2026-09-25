@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
+  "catalogVersion": 1,
+  "publishedAt": "2026-09-24T00:00:00Z",
   "providers": [
     {
       "providerId": "evn_hanoi",
@@ -747,7 +749,6 @@
       "aliases": [
         "SAWACO",
         "Cấp nước Sài Gòn",
-        "Nước Sài Gòn",
         "Nước Bến Thành",
         "Nước Gia Định",
         "Nước Thủ Đức"
